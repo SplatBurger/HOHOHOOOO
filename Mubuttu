@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Message royal ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            max-width: 800px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            animation: fadeIn 1.5s ease;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #c2185b;
+        }
+
+        .message {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            text-align: center;
+        }
+
+        .hearts {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 26px;
+            animation: pulse 1.2s infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="title">👑 Proclamation officielle 👑</div>
+
+        <div class="message">
+            Energumène de première génération et individu de seconde zone,
+            microbe, acarien de la plus basse espèce, esclave de mon royaume,
+            la principauté du grand Mubuttu, premier du nom…<br><br>
+
+            Sache que je t’aime, ma vie, énormément.<br>
+            Tu ne peux pas imaginer à quel point.
+        </div>
+
+        <div class="hearts">🤩❤️❤️❤️❤️</div>
+    </div>
+
+</body>
+</html>
