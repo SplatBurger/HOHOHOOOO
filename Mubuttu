@@ -13,6 +13,7 @@
             justify-content: center;
             background: linear-gradient(135deg, #ff758c, #ff7eb3);
             font-family: 'Segoe UI', Tahoma, sans-serif;
+            position: relative;
         }
 
         .card {
@@ -22,6 +23,7 @@
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.2);
             animation: fadeIn 1.5s ease;
+            position: relative;
         }
 
         .title {
@@ -43,6 +45,15 @@
             text-align: center;
             font-size: 26px;
             animation: pulse 1.2s infinite alternate;
+        }
+
+        .reference {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 10px;
+            color: #555;
+            font-style: italic;
         }
 
         @keyframes fadeIn {
@@ -69,7 +80,7 @@
 <body>
 
     <div class="card">
-        <div class="title">👑 Proclamation officielle 👑</div>
+        <div class="title">👑 Message Royale du grand Mubuttu premier du name 👑</div>
 
         <div class="message">
             Energumène de première génération et individu de seconde zone,
@@ -81,6 +92,10 @@
         </div>
 
         <div class="hearts">🤩❤️❤️❤️❤️</div>
+
+        <div class="reference">
+            blablabla blablaaa NabiNul des Champs Des Bois, Blablabla Mouna De la Gaiteuhhh #JeSuisGenial#Roi#MUBUTTU#Leila#Zara
+        </div>
     </div>
 
 </body>
